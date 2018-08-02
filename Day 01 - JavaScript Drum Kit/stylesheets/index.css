@@ -1,6 +1,9 @@
 html {
 	font-size: 10px;
-  	background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  	/*background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;*/
+  	/*background: url(https://edmalerts.com/wp-content/uploads/2017/11/Background-03.jpg);*/
+  	/*background: url(https://wallpaper-house.com/data/out/12/wallpaper2you_564035.jpg) bottom center;*/
+  	background: url('../images/wallpaper2you_564035.jpg') bottom center;
   	background-size: cover;
 }
 
@@ -18,7 +21,7 @@ body, html {
 }
 
 .key {
-	border: .4rem solid black;
+	border: .4rem solid #CCC;
 	border-radius: .5rem;
 	margin: 1rem;
 	font-size: 1.5rem;
