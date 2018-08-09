@@ -9,11 +9,6 @@ const s = document.querySelector('.seconds');
 const t = document.querySelector('.time');
 
 function setDate() {
-	/*const secondHand = document.querySelector('.second-hand');
-	deg += 6;
-	deg = deg % 360;
-	secondHand.style.transform = 'rotate(' + deg + 'deg)';
-	console.log(deg);*/
 	const now = new Date();
 	const seconds = now.getSeconds();
 	const secondsDegrees = ((seconds / 60) * 360) + 90;
